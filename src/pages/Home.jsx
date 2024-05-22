@@ -14,16 +14,18 @@ const Home = () => {
     audioRef.current.volume = 0.2;
     audioRef.current.loop = true;
 
-    const [isPlayingMusic, setIsPlayingMusic] = useState(false);
     const [isRotating, setIsRotating] = useState(false);
     const [currentStage, setCurrentStage] = useState(1);
+    const [isPlayingMusic, setIsPlayingMusic] = useState(false);
 
     useEffect(() => {
         if (isPlayingMusic) {
             audioRef.current.play();
-        } else {
-            audioRef.current.pause();
         }
+
+        return () => {
+            audioRef.current.pause();
+        };
     }, [isPlayingMusic])
 
     const adjustIsland = () => {

@@ -5,6 +5,7 @@ import Fox from '../models/Fox'
 import Loader from '../components/Loader';
 import useAlert from '../hooks/useAlert';
 import Alert from '../components/Alert';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
     const formRef = useRef(null);

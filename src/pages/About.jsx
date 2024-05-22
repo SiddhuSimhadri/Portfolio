@@ -36,8 +36,8 @@ const About = () => {
                 <h3 className='subhead-text'>Work Experience.</h3>
                 <div className='mt-5 flex flex-col gap-3 text-slate-500'>
                     <p>
-                        I've worked with all sorts of companies, leveling up my skills and
-                        teaming up with smart people. Here's the rundown:
+                        I am a Computer Science student at KL university and have no prior experience in working with companies
+                        but I have gained some experience by working with these teachnologies and implementing them by building some projects:
                     </p>
                 </div>
 

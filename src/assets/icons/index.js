@@ -27,6 +27,8 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import django from './django.svg'
+import rest from './rest.svg'
+import postgre from './postgre.svg'
 
 export {
     css,
@@ -58,4 +60,6 @@ export {
     soundon,
     soundoff,
     django,
+    rest,
+    postgre
 }

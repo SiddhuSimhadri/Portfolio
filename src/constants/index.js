@@ -24,6 +24,8 @@ import {
     threads,
     typescript,
     django,
+    rest,
+    postgre
 } from "../assets/icons";
 
 export const skills = [
@@ -59,6 +61,11 @@ export const skills = [
         type: "Backend",
     },
     {
+        imageUrl: rest,
+        name: "Django rest framework",
+        type: "API",
+    },
+    {
         imageUrl: git,
         name: "Git",
         type: "Version Control",
@@ -70,8 +77,8 @@ export const skills = [
     },
 
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
+        imageUrl: postgre,
+        name: "POstgresql",
         type: "Database",
     },
     {
@@ -82,11 +89,6 @@ export const skills = [
     {
         imageUrl: mui,
         name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
         type: "Frontend",
     },
 
@@ -100,69 +102,57 @@ export const skills = [
         name: "Tailwind CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "React.js Experience",
+        company_name: "Javascript",
+        icon: react,
+        iconBg: "rgba(0, 0,0, 0.7)",
+        date: "Frontend Development",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Learnt react's statemanagement and Hooks ",
+            "Advanced them by building Youtube clone and also get to know how to fetch data from API's and show them.",
+            "Also build Amazon ui clone using react js and firebase.",
+            "And currently building many more projects that showcases my skills. ",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Django Experience",
+        company_name: "Python",
+        icon: django,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Backend Development",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Learnt django basics like templates, urls, views, Authentication and authorization, and many more",
+            "Advanced them by building a fully functional Netflix clone website, in which admin can add movies and users can watch & save them. ",
+            "Also build many small projects through which i have gained experience in django and python as well.",
+            "Still working to build on projects that showcases my skills and solve realworld problems",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Django rest Framework",
+        company_name: "python",
+        icon: rest,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Api Development",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "As django rest framework is the next thing to learn after Django I've worked on it ",
+            "Practised it very well by creating many apis and learnt to use them in frontend(react).",
+            "Still working to build on projects that showcases my skills and solve realworld problems",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Full stack Development",
+        company_name: "Django+React",
+        icon: react,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "Django & React",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Learnt some technologies which are necessary for web developent which are HTML, CSS, Tailwind css, Javascript, React js, Django, PostgreSQL, etc",
+            "Learnt how to integrate django and react which help in building full stack projects easily and saves much time",
+            "Still working to build on projects that showcases my skills and solve realworld problems",
         ],
     },
 ];
@@ -212,20 +202,14 @@ export const projects = [
         theme: 'btn-back-pink',
         name: 'Full Stack Instagram Clone',
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        link: 'https://github.com',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'This Portfolio Website',
+        description: 'This is one of the coolest website that i have ever build. This is possible using Three js and React js',
+        link: 'https://github.com/SiddhuSimhadri/Portfolio',
     },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+
 ];
